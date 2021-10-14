@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+}
+.header{
+    margin: 15px 105px;
+}
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__item{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #939699;
+    padding-right: 30px;
+}
+.link{
+    text-decoration: none;
+}
+.button{
+    padding: 10px 20px 10px 48px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.button__cart{
+    background: url(../img/Cart.svg) no-repeat 18px center;
+}
+
+.button__nav{
+    background-color: #4592FF;
+    color: #fff;
+    border-radius: 20px;
+}
+.section__promo{
+    padding-top: 90px;
+    padding-left: 210px;
+    background: #B4D1E0 url(../img/womah.png) no-repeat center right;
+}
+.div__promo{
+    
+}
+.best__txt{
+    
+    padding: 5px 12px;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 15px;
+    background: #3DC47E;
+    color: #fff;
+    border-radius: 3px;
+}
+.bestseller{
+    margin: 90px 0 25px 0;
+}
+
+.title{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    color: #262D33;
+}
+
+.txt{
+    padding-bottom: 50px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5157;
+}
+
+.butt__promo{
+    margin-bottom: 110px;
+}
