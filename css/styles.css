@@ -57,13 +57,34 @@ html{
     border-radius: 20px;
 }
 .section__promo{
+    background: #B4D1E0;
+   
+}
+
+.div__promo::before{
+    content: url(../img/arr_one.svg);
+    opacity: 50%;
+    position: absolute;
+    top: 255px;
+    left: 107px; 
+    cursor: pointer;
+}
+.div__promo::after{
+    content: url(../img/arr_two.svg);
+    opacity: 50%;
+    position: absolute;
+    top: 255px;
+    left: 1198px;
+    cursor: pointer;
+}
+.div__promo{
+    position: relative;
+    padding-bottom: 110px;
     padding-top: 90px;
     padding-left: 210px;
     background: #B4D1E0 url(../img/womah.png) no-repeat center right;
 }
-.div__promo{
-    
-}
+
 .best__txt{
     
     padding: 5px 12px;
@@ -100,5 +121,322 @@ html{
 }
 
 .butt__promo{
-    margin-bottom: 110px;
+    
+    display: flex;
+    padding: 10px 25px;
+}
+.dollars{
+    margin-right: 10px;
+    font-weight: 900;
+}
+.section__fashion{
+    padding: 50px 104px 50px 104px;
+}
+.butt__fash_t{
+    padding: 10px 45px 10px 20px;
+    border-radius: 20px;
+}
+.butt__fash{
+ color: #fff;
+    background: #4592FF url(../img/arrow.svg) no-repeat 78px center;
+}
+.div__fashion{
+    padding-left: 45px;
+    padding-bottom: 80px;
+   margin-left: 104px;
+    max-width: 563px;
+    width: 100%;
+    background: url(../img/fashion.png) no-repeat center ;
+    border-radius: 10px;
+}
+.title__fashion{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    max-width: 222px;
+    width: 100%;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+}
+.txt__fashion{
+    margin-bottom: 25px;
+    max-width: 176px;
+    width: 100%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+}
+
+ 
+.div__catch{
+    padding-left: 45px;
+    padding-bottom: 80px;
+    margin-right: 104px;
+    max-width: 565px;
+    width: 100%;
+    background: url(../img/catch.png) no-repeat center ; 
+    border-radius: 10px;
+}
+.title__catch{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    max-width: 252px;
+    width: 100%;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+.txt__catch{
+    margin-bottom: 25px;
+    max-width: 176px;
+    width: 100%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+.fashion__catch{
+    display: flex;
+    justify-content: space-between;
+}
+.poplin__printed{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.div__poplin{
+    margin-left: 104px;
+    padding-top: 35px;
+    padding-bottom: 59px;
+    padding-left: 46px;
+    max-width: 860px;
+    width: 100%;
+    background: #CCD5E6 url(../img/shirt.png) no-repeat center right ; 
+    border-radius: 10px;
+}
+.title__poplin{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 418px;
+    width: 100%;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #262D33;
+}
+
+.txt__poplin{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    margin-bottom: 50px;
+}
+
+.div__printed{
+    padding-top: 35px;
+    padding-left: 26px;
+    margin-right: 104px;
+    max-width: 272px;
+    width: 100%;
+    background: #FF4F52 url(../img/womah_glass.png) no-repeat center right ; 
+    border-radius: 10px;
+}
+.title__printed{
+    margin-bottom: 10px;
+    max-width: 210px;
+    width: 100%;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+.txt__printed{
+    margin-bottom: 15px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFC4C9;
+}
+.cena__printed{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.tittle__new{
+    margin-left: 112px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+}
+.range{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.hoodie{
+    position: relative;
+    max-width: 263px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    margin-left: 104px;
+}
+
+.viev_all{
+    margin-right: 114px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262D33;
+}
+
+.new__butt{
+    position: absolute;
+    top:18px;
+    left: 0px;
+    padding: 5px 12px;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 15px;
+    background: #3DC47E;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.hoodie__img{
+  margin-bottom: 15px;
+    }
+
+.name__card{
+    margin-bottom: 5px;
+    margin: 15px 25px 5px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+}
+.color__card{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    margin-bottom: 20px;
+}
+.shirt-two{
+    margin-right: 104px;
+}
+.footer {
+    background: #8F79D4;
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 44px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navigation__footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 453px;
+    width: 100%;
+}
+.navigation__footer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    max-width: 175px;
+    width: 100%;
+}
+.followus {
+    color: #E7D9FF;
+}
+.copyright p {
+    color: #E7D9FF;
+}
+.footer__bottom {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.paymentsystems {
+    display: flex;
+    justify-content: space-between;
+    max-width: 339px;
+    width: 100%;
+    height: 30px;
+}
+.paymentsystems__img {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btt_div {
+    display: flex;
+    max-width: 78px;
+    width: 100%;
+    height: 40px;
+}
+.btt_div p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+.back_to_top {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #D8BFFF;
+    border-radius: 20px;
+    background: transparent url(../img/Upper.png) no-repeat center;
 }
